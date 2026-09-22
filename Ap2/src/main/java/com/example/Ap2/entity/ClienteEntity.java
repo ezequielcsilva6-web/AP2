@@ -25,4 +25,8 @@ public class ClienteEntity {
 
     @Column (nullable = false)
     private String telefone;
+
+    public String getEmail() {
+        return null;
+    }
 }
